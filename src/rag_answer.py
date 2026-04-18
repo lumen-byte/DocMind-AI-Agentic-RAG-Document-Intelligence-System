@@ -4,13 +4,13 @@ from ctransformers import AutoModelForCausalLM
 import faiss
 import numpy as np
 
-# ---------- 1. Load document ---------
+# ----------1. Load document---------
 reader = PdfReader("data/docs/sample_company_policy.pdf")
 full_text = ""
 for page in reader.pages:
     full_text += page.extract_text()
 
-# ---------- 2. Chunking ----------
+# ----------2. Chunking----------
 def chunk_text(text, chunk_size=400, overlap=50):
     chunks = []
     start = 0
