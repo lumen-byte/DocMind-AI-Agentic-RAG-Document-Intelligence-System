@@ -4,7 +4,7 @@ from ctransformers import AutoModelForCausalLM
 import faiss
 import numpy as np
 
-# ---------- 1. Load document ----------
+# ---------- 1. Load document ---------
 reader = PdfReader("data/docs/sample_company_policy.pdf")
 full_text = ""
 for page in reader.pages:
