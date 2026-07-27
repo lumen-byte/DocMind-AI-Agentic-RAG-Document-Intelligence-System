@@ -1,6 +1,6 @@
-# DocMind AI: Agentic RAG Document Intelligence System
+# Agentic RAG : Document Intelligence System
 
-DocMind AI is a Retrieval-Augmented Generation (RAG) system designed to perform grounded, multi-turn question answering over document repositories. The system integrates semantic document parsing, local vector databases, conversational state management, and multi-agent coordination loops to deliver verified answers while minimizing large language model (LLM) hallucinations.
+Agentic RAG is a Retrieval-Augmented Generation (RAG) system designed to perform grounded, multi-turn question answering over document repositories. The system integrates semantic document parsing, local vector databases, conversational state management, and multi-agent coordination loops to deliver verified answers while minimizing large language model (LLM) hallucinations.
 
 ---
 
